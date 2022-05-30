@@ -16,6 +16,7 @@ public class CadastroclientesApplication {
 	}
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CadastroclientesApplication.class, args);
 	}
 
