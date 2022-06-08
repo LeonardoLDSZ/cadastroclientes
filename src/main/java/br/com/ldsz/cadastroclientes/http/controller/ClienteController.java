@@ -28,7 +28,7 @@ public class ClienteController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Cliente> listaClientes() {
+    public List<Cliente> listaCliente() {
         return clienteService.listaCliente();
     }
 
